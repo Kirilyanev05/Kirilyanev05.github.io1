@@ -1,0 +1,80 @@
+html, body {
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+}
+body {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Space out header, main content, and footer */
+    background-image: url(media/pexels-felixmittermeier-956999.jpg);
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin: 0; /* Remove default margin */
+}
+h1 {
+    text-align: center; /* Center align the main heading */
+    padding: 20px; /* Add some padding */
+}
+
+nav {
+    text-align: center; /* Center align the navigation links */
+    margin: 20px 0; /* Add margin above and below */
+}
+
+nav a {
+    color: #ffcc00; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Space out the links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+table {
+    width: 80%; /* Set table width */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse; /* Collapse borders */
+    background: rgba(0, 0, 0, 0.7); /* Dark background for the table */
+    border-radius: 8px; /* Rounded corners */
+}
+
+th, td {
+    padding: 10px; /* Add padding to table cells */
+    border: 1px solid #ffffff; /* White border */
+    text-align: left; /* Left align text */
+}
+
+th {
+    background: rgba(255, 204, 0, 0.7); /* Header background color */
+    color: black; /* Header text color */
+}
+
+    footer {
+        background-color: rgba(0, 0, 0, 0.7); 
+        color: white;
+        padding: 20px;
+        position: relative;
+        text-align: center;
+        margin-top: 20px; 
+       }
+       .footer-links a {
+        color:#00aced;
+        margin: 0 10px;
+        text-decoration: none;
+       }
+       .footer-links a:hover{
+        text-decoration: underline;
+       }
+       .footer-logo{
+        position: absolute;
+        bottom: 1px;
+        right: 10px;
+        width: 50px;
+        height: auto;
+       }
+       footer a, footer p {
+        color: white;
+        font-weight: bold;
+      }

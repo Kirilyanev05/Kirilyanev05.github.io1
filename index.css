@@ -1,0 +1,99 @@
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+
+body {
+background-image:url(media/pexels-felixmittermeier-956999.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#main {
+  padding: 20px;
+}
+/* this for my first paragraph */
+.opinion {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+}
+.opinion {
+  width: 50%;
+  max-width: 800px;
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.opinion h2 {
+  color: #333;
+}
+nav#links {
+  text-align: center;
+  margin-bottom: 20px;
+}
+nav#links a {
+  margin: 0 15px;
+  text-decoration: none;
+  text-align: center;
+  color: #007bff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+nav#links a:hover {
+  text-decoration: underline;
+}
+
+#coding {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.opinion2 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+}
+.opinion2 {
+  width: 50%;
+  max-width: 800px;
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.heading-list{color: #fff;}
+ .list{color:#fff}
+
+ footer {
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: white;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  margin-top: 20px; 
+ }
+ .footer-links a {
+  color:#00aced;
+  margin: 0 10px;
+  text-decoration: none;
+ }
+ .footer-links a:hover{
+  text-decoration: underline;
+ }
+ .footer-logo{
+  position: absolute;
+  bottom: 1px;
+  right: 10px;
+  width: 50px;
+  height: auto;
+ }
+ footer a, footer p {
+  color: white;
+  font-weight: bold;
+}
